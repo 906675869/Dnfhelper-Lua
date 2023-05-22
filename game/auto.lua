@@ -5,14 +5,53 @@
 ---
 
 
-Auto{
+auto = {
 
 }
 
+-- 自动开关
+function auto:autoSwitch()
+    print("自动开关")
+end
 
-
-function auto.switch()
-
-
+-- 自动线程
+function auto:autoThread()
 
 end
+
+-- 进入城镇
+function auto:enterTown()
+
+end
+
+-- 城镇处理
+function auto:TownHandle()
+
+end
+
+-- 进入选图
+function auto:enterSelectMap()
+
+end
+
+-- 返回角色
+function auto:backToRole()
+
+end
+
+-- 进入副本
+function auto:enterMap(num, level)
+
+end
+
+-- 过图
+function auto:passMap()
+
+end
+
+-- 退出副本
+function auto:quitMap()
+
+end
+
+return auto
